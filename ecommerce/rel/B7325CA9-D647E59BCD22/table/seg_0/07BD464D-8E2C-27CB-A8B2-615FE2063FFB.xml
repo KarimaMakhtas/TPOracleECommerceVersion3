@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07BD464D-8E2C-27CB-A8B2-615FE2063FFB" name="AdresserLivraison">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-05 22:19:13 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAdresse" id="3BD7A950-027C-F334-B4F5-889BEA8A06F1">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-05 22:20:29 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BDF99835-8134-BBFB-2A14-53EB963BA23C</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37A1AB2A-FE3C-C7EE-A052-43FCE7F5F999" referredColumn="BDF99835-8134-BBFB-2A14-53EB963BA23C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D269679-BA87-391F-E944-F83247E62353" name="AdressesLivraison_PK">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-05 22:20:29 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BD7A950-027C-F334-B4F5-889BEA8A06F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C81664FC-5FF1-53DA-E262-3F2492C7AA5B" name="AdresserLivraison_Adresses_FK">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-06 00:04:37 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BD7A950-027C-F334-B4F5-889BEA8A06F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

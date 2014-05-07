@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0BBE6F57-D961-2F93-FB85-0F9D72BC68C2" name="Catalogues">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-06 00:05:23 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="catalogue_id" id="EA8131EC-D476-CFA8-8FFE-D17CB5890984">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-06 00:05:46 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23DB57EA-D8A4-F4EC-65CB-2DB7BDDC0565" name="Catalogues_PK">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-06 00:05:46 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA8131EC-D476-CFA8-8FFE-D17CB5890984"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

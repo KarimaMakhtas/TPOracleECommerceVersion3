@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28F1BC43-3239-72A3-62C2-1C3B1C00CBC5" name="CarteBancaires">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-04-23 09:39:44 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCarteBancaire" id="A54D2ADC-6486-0439-D57B-6AA966C79467">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-04-23 09:43:26 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="A6396E22-4815-DD79-1EDE-3C4433375098">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-04-23 09:43:26 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="759C2EDB-0FEC-D92E-24C3-DD1C1D47CE55">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-04-23 09:43:26 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dateValidite" id="1CFE95C3-01BA-57FC-E474-EAC053DF5D29">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-04-23 09:43:26 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idClient" id="A2A1091A-DE3E-04C1-CB5C-CF1E17CD6842">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-05 23:59:04 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C63EDD4B-C235-0E0C-C531-74E760E04D65</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99346479-1C0C-7BB5-5050-73CEF3744DF6" referredColumn="C63EDD4B-C235-0E0C-C531-74E760E04D65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2792772D-1255-D5ED-AED5-65C559D8BBE5" name="CarteBancaires_PK">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-04-23 09:43:26 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A54D2ADC-6486-0439-D57B-6AA966C79467"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5617764C-37CB-11D5-FCC6-17B6B2B66F12" name="CarteBancaires_Clients_FK">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-06 00:00:16 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2A1091A-DE3E-04C1-CB5C-CF1E17CD6842"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

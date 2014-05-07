@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B438E6C-A156-6DEA-78FF-A968D66BF3B3" name="Changements">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-05 21:46:13 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="changements_id" id="D74E0347-09E8-BD4E-AAE4-20D51EDCFF47">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-05 21:46:51 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="changements_date" id="F54F82D0-7BBB-9BFD-E168-033D7E75D373">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-05 21:47:06 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="changements_valeur" id="34EEA384-E28D-51D6-9670-D5B9AA3BB481">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-05 21:47:33 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCE29E1D-EF04-8BEA-CE41-A7BAFA49B94D" name="Changements_PK">
+<createdBy>makhtas</createdBy>
+<createdTime>2014-05-05 21:46:51 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D74E0347-09E8-BD4E-AAE4-20D51EDCFF47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

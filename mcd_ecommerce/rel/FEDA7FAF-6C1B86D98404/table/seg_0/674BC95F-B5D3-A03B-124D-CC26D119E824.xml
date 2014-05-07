@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="674BC95F-B5D3-A03B-124D-CC26D119E824" name="Facturer">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-22 08:33:48 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DateAdresse_dateAdresse_id" id="34E5534F-16C9-9F97-92AA-1BFF8EC50DB9">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-22 08:34:53 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>35463174-608E-844C-687C-73A818446CDE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADF22D6E-6EDB-F255-2FC2-22482DB55AB3" referredColumn="35463174-608E-844C-687C-73A818446CDE"/>
+</associations>
+</Column>
+<Column name="DateAdresse_dateAdresse_date" id="31AE9ED6-8D48-122C-239E-37CCC89F31BC">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-22 08:34:53 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<delegate>FD6A9923-BD94-E211-E62B-E168BC640DA7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADF22D6E-6EDB-F255-2FC2-22482DB55AB3" referredColumn="FD6A9923-BD94-E211-E62B-E168BC640DA7"/>
+</associations>
+</Column>
+<Column name="Clients_clients_id" id="46D61B41-3E47-69E1-4CF3-A5778CA3694C">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-22 08:35:04 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1F82C24A-C39A-3BE3-5262-3001D1669E2E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8D6ADE3-C6C7-F972-2C1C-545038028199" referredColumn="1F82C24A-C39A-3BE3-5262-3001D1669E2E"/>
+</associations>
+</Column>
+<Column name="adresse_facturation_id" id="DDD4844D-CEE0-42D4-664B-B87DC14AD945">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-22 08:35:32 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>31B15195-8A08-76FC-F513-02BFDF9D276A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F571B9B1-0111-50D4-F997-992B450C1ABB" referredColumn="31B15195-8A08-76FC-F513-02BFDF9D276A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FF2EFBC-E2EE-9CBB-F000-80279378A0D5" name="Facturer_PK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-22 08:36:33 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34E5534F-16C9-9F97-92AA-1BFF8EC50DB9"/>
+<colUsage columnID="31AE9ED6-8D48-122C-239E-37CCC89F31BC"/>
+<colUsage columnID="46D61B41-3E47-69E1-4CF3-A5778CA3694C"/>
+<colUsage columnID="DDD4844D-CEE0-42D4-664B-B87DC14AD945"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B0AD63C-E314-684B-40C5-2239BC648A85" name="Facturer_DateAdresse_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-22 08:34:53 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34E5534F-16C9-9F97-92AA-1BFF8EC50DB9"/>
+<colUsage columnID="31AE9ED6-8D48-122C-239E-37CCC89F31BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="850F29BA-8509-AA41-F415-44A8D384D30C" name="Facturer_Clients_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-22 08:35:04 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46D61B41-3E47-69E1-4CF3-A5778CA3694C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A9615B6-AD00-9D30-1A30-4CFCED3753B6" name="Facturer_Adresser_Facturation_FK">
+<createdBy>Myc</createdBy>
+<createdTime>2014-04-22 08:35:32 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>mcd_ecommerce</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDD4844D-CEE0-42D4-664B-B87DC14AD945"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
