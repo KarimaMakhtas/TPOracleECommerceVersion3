@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="076F5273-E976-93FE-CF71-F4A6BC7847E7" name="Utilisateur" seqName="seg_0"/>
+   <object objectType="Table" objectID="07BD464D-8E2C-27CB-A8B2-615FE2063FFB" name="AdresserLivraison" seqName="seg_0"/>
+   <object objectType="Table" objectID="0BBE6F57-D961-2F93-FB85-0F9D72BC68C2" name="Catalogues" seqName="seg_0"/>
+   <object objectType="Table" objectID="20862EFC-FF58-421A-8F1A-19100D61CA6E" name="Champs" seqName="seg_0"/>
+   <object objectType="Table" objectID="28F1BC43-3239-72A3-62C2-1C3B1C00CBC5" name="CarteBancaires" seqName="seg_0"/>
+   <object objectType="Table" objectID="2B438E6C-A156-6DEA-78FF-A968D66BF3B3" name="Changements" seqName="seg_0"/>
+   <object objectType="Table" objectID="48895F17-7134-D103-F7DA-6FDB9C6A0E8F" name="Reglements" seqName="seg_0"/>
+   <object objectType="Table" objectID="54ACC76C-A23C-5F6F-F190-A577ED04CE9A" name="Adresses" seqName="seg_0"/>
+   <object objectType="Table" objectID="63BED30B-4D05-2A60-6A9B-3E8E858D6E56" name="LingePaniers" seqName="seg_0"/>
+   <object objectType="Table" objectID="689ABFF2-966F-3DD5-B840-F71DCBFF8D70" name="Facturer" seqName="seg_0"/>
+   <object objectType="Table" objectID="73B0F534-F71D-2BDC-2A37-B3E032EC8004" name="Commandes" seqName="seg_0"/>
+   <object objectType="Table" objectID="7D65B6F3-C4BF-6E5D-398C-5D57C1725E03" name="DateAdresse" seqName="seg_0"/>
+   <object objectType="Table" objectID="7EF1405A-0365-294C-1E21-47ECF6A61A01" name="Paniers" seqName="seg_0"/>
+   <object objectType="Table" objectID="8132ABD4-038E-FDAF-5BBF-63A34CA9A68A" name="Clients" seqName="seg_0"/>
+   <object objectType="Table" objectID="BC5CB0C1-BA2B-AA06-E29D-B71E91140770" name="Articles" seqName="seg_0"/>
+   <object objectType="Table" objectID="CF9C5120-9391-733A-923B-659768F35448" name="AdresserFacturation" seqName="seg_0"/>
+   <object objectType="Table" objectID="FC3C6BB4-7D3E-E8F7-8A43-89D3F62D7677" name="Subir" seqName="seg_0"/>
+   <object objectType="Table" objectID="FD5E094D-DD04-97D1-A047-676A64EA138C" name="Pays" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="00677E4C-BC69-6C54-93CA-1C0B58713B09" name="AdresserFacturation_Adresses_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1F163C53-1EE8-59CA-7FA7-1D37FAFB0FC5" name="Commandes_Paniers_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2D6A7808-E7CB-5C24-A063-94162DEB8EA4" name="Facturer_Commandes_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="37A1AB2A-FE3C-C7EE-A052-43FCE7F5F999" name="AdresserLivraison_Adresses_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3A307477-1E24-A945-DF8B-4D34024DBA25" name="Subir_Champs_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="414CA690-EB3E-0131-A1A4-0A092AB2FF1F" name="Facturer_DateAdresse_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="63ACF8BF-8307-3F0C-A206-F0EE18681254" name="LingePaniers_Articles_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="72BC98A7-ACF2-52F4-34E3-BDD188AF863E" name="Facturer_Reglements_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="863F9D9C-F070-4B05-7C3E-B886F2B43CCA" name="Commandes_Clients_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="983B02BF-943D-87D6-B1B5-64EFDB21C246" name="Adresses_Pays_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="99346479-1C0C-7BB5-5050-73CEF3744DF6" name="CarteBancaires_Clients_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B1806B1A-9BE6-9375-C9D9-E5E7F7021949" name="LingePaniers_Paniers_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BCDAEEF8-0DB2-3E18-F118-80CB671F2063" name="Subir_Utilisateur_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DFC40883-EBD6-8C34-7F28-BABF04DECE95" name="Facturer_AdresserFacturation_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E7A0C0D8-6A10-5D6E-FBEA-40C256D31242" name="Subir_Changements_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EB5A46A9-302A-2E22-6EFE-8FC094B2A4F2" name="Subir_Articles_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
